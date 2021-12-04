@@ -1,0 +1,522 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #fff;
+        height: 2000px;
+    }
+    /* #ecfdff; */
+    /*  ================== Start Framework ================== */
+    
+    .title {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .titles {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6b6b74;
+        margin-left: 10px;
+    }
+    
+    .text {
+        padding: 60px 0;
+    }
+    
+    .btng {
+        border: 0;
+        padding: 15px 40px;
+        text-transform: uppercase;
+        color: #FFF;
+        background: rgb(255, 0, 90);
+        background: linear-gradient(31deg, rgba(255, 0, 90, 1) 0%, rgba(255, 93, 45, 1) 90%, rgba(255, 186, 0, 1) 100%);
+        transition: all 3s ease-in-out;
+        -webkit-transition: all 3s ease-in-out;
+        -moz-transition: all 3s ease-in-out;
+        -ms-transition: all 3s ease-in-out;
+        -o-transition: all 3s ease-in-out;
+    }
+    
+    .btng:hover {
+        background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+        color: #FFF;
+    }
+    
+    .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+    /*  ====== Start Conuter ===== */
+    
+    ul#example {
+        list-style: none;
+        margin: 60px 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    
+    ul#example li {
+        display: inline-block;
+    }
+    
+    ul#example li span {
+        font-size: 80px;
+        font-weight: 300;
+        line-height: 80px;
+    }
+    
+    ul#example li.seperator {
+        font-size: 80px;
+        line-height: 70px;
+        vertical-align: top;
+    }
+    
+    ul#example li p {
+        color: #a7abb1;
+        font-size: 25px;
+    }
+    /*  ====== End Conuter ===== */
+    /*  ================== End Framework ================== */
+    /*  ================== Start Nav ================== */
+    
+    nav {
+        transition: all .3s ease-in-out;
+        -webkit-transition: all s ease-in-out;
+        -moz-transition: all s ease-in-out;
+        -ms-transition: all s ease-in-out;
+        -o-transition: all s ease-in-out;
+    }
+    
+    .navbar-nav {
+        margin-left: 180px;
+    }
+    
+    .nav-item {
+        padding: 10px 18px;
+    }
+    
+    .nav-item .nav-link {
+        color: #000;
+    }
+    
+    .dropdown-menu {
+        font-size: 14px;
+        padding: 8px 20px !important;
+        color: #fff !important;
+        background-color: #ff3368;
+        text-transform: capitalize;
+        margin-top: 9px;
+    }
+    
+    .dropdown-menu a {
+        color: #fff !important;
+    }
+    
+    .dropdown-menu a:hover {
+        background-color: transparent;
+        counter-reset: #FFF;
+    }
+    
+    .bgw {
+        background-color: #FFF;
+    }
+    
+    .icons i {
+        font-size: 20px;
+        padding: 4px;
+    }
+    
+    @media(max-width:991px) {
+        .navbar-toggler {
+            margin-top: 10px;
+        }
+        .navbar-toggler i {
+            font-size: 30px;
+        }
+        .navbar-collapse {
+            background-color: #FFF;
+        }
+        .navbar-nav {
+            margin-left: 0px;
+        }
+        .navbar-collapse {
+            margin-top: 10px;
+        }
+        .navbar-collapse .dropdown-menu {
+            border: 0;
+        }
+        .icons i {
+            margin: 0 70px;
+        }
+    }
+    /*  ================== End Nav ================== */
+    /*  ================== Start Header ================== */
+    
+    .headerslider {
+        height: 600px;
+        width: 100%;
+    }
+    
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        right: 10px;
+        border: none;
+        background: #fff;
+        bottom: 0px;
+        padding: 10px 20px;
+    }
+    
+    .slick-prev {
+        margin-right: 90px;
+    }
+    
+    #slick-slide-control00,
+    #slick-slide-control01 {
+        display: none;
+    }
+    
+    .slider {
+        height: 600px;
+        width: 100%;
+        background-color: #ecfdff;
+        ;
+    }
+    
+    .slider .iteam {
+        position: absolute;
+        top: 25%;
+        left: 7%;
+    }
+    
+    .slider .iteam h1 {
+        font-weight: 900;
+        font-size: 60px;
+        margin-bottom: 35px;
+        color: black;
+    }
+    
+    .slider .iteam p {
+        line-height: 30px;
+        color: black;
+    }
+    
+    @media(max-width:991px) {
+        .slider .iteam p {
+            width: 85%;
+        }
+    }
+    /*  ================== End Header ================== */
+    /*  ================== Start Feature ================== */
+    
+    .feature {
+        justify-content: space-between;
+    }
+    
+    .product {
+        display: flex;
+        background-color: #ecfdff;
+        padding: 10px;
+    }
+    
+    .product-content {
+        font-size: 25px;
+    }
+    
+    .product-content h3 {
+        margin-top: -10px;
+        font-size: 25px;
+    }
+    
+    .product-content p {
+        font-size: 15px;
+    }
+    
+    .product button {
+        position: absolute;
+        font-size: 14px;
+        bottom: 20px;
+        left: 20px;
+        opacity: 0;
+        color: #ff3368;
+        border: 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 10px;
+        background: transparent;
+        transition: all 2s ease-in-out;
+        -webkit-transition: all 2s ease-in-out;
+        -moz-transition: all 2s ease-in-out;
+        -ms-transition: all 2s ease-in-out;
+        -o-transition: all 2s ease-in-out;
+    }
+    
+    .product button:hover {
+        opacity: 1;
+    }
+    
+    .product-img img {
+        width: 100%;
+        height: 90%;
+    }
+    
+    .l2 {
+        margin-top: 6%;
+    }
+    /*  ================== End Feature ================== */
+    /*  ================== Shop Start ================== */
+    
+    .shop-de {
+        margin-top: 10px;
+    }
+    
+    .shop-de h4 {
+        font-weight: 200;
+        font-size: 18px;
+    }
+    
+    .shop-de h3 {
+        font-size: 12px;
+        font-weight: 100;
+    }
+    
+    .shop-de span {
+        opacity: 0;
+        color: #ff3368;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+    }
+    
+    .shop-de i {
+        opacity: 1;
+        margin-left: 40px;
+        margin-top: 5px;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all s ease-in-out;
+        -moz-transition: all s ease-in-out;
+        -ms-transition: all s ease-in-out;
+        -o-transition: all s ease-in-out;
+    }
+    
+    .shop-de {
+        transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+    }
+    
+    .pro:hover .shop-de {
+        padding-left: 20px;
+    }
+    
+    .pro:hover span {
+        opacity: 1;
+    }
+    
+    .pro:hover .shop-de i {
+        opacity: 1;
+    }
+    
+    @media(max-width:775px) {
+        .pro img {
+            width: 100%;
+        }
+        .shop-de h4 {
+            font-weight: 200;
+            font-size: 25px;
+        }
+        .shop-de h3 {
+            font-size: 15px;
+            font-weight: 100;
+        }
+        .shop-de i {
+            margin-left: 120px;
+            font-size: 20px;
+        }
+        .pro:hover span {
+            opacity: 1;
+            font-size: 22px;
+        }
+    }
+    /*  ================== End Shop ================== */
+    /*  ================== Start Sale  ================== */
+    
+    .p {
+        position: relative;
+    }
+    
+    .sale {
+        padding: 100px 0;
+        background-color: #ecfdff;
+    }
+    
+    .sale h1 {
+        font-weight: 500;
+        margin-top: 15px;
+        line-height: 50px;
+    }
+    
+    .sale input {
+        width: 80%;
+        margin: 0 auto;
+        height: 55px;
+        border: none;
+    }
+    
+    .sale .bttg {
+        height: 55px;
+        position: absolute;
+        bottom: 46px;
+        left: 350px;
+    }
+    
+    @media(max-width:775px) {
+        .sale {
+            padding: 100px 0;
+            background-color: #ecfdff;
+            width: 111%;
+        }
+        .sale h1 {
+            text-align: center;
+        }
+        .sale .bttg {
+            height: 50px;
+            position: absolute;
+            bottom: 18px;
+            left: 333px;
+        }
+    }
+    /*  ================== End Sale  ================== */
+    /*  ================== Start Subscribe  ================== */
+    
+    .subscribe {
+        padding: 150px 0;
+        background: url(../img/subscribe_area.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .sub span {
+        font-size: 12px;
+        color: #ff3368;
+    }
+    
+    .sub h2 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    .sub .t {
+        font-size: 12px;
+        padding: 9px 10px;
+        margin-top: 15px;
+    }
+    
+    .sub {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .sub input {
+        margin: 10px auto auto;
+        width: 45%;
+    }
+    
+    @media(max-width:775px) {
+        .sub {
+            width: 70%;
+        }
+        .sub h2 {
+            font-size: 40px;
+        }
+        .sub input {
+            width: 100%;
+        }
+    }
+    /*  ================== End Subscribe  ================== */
+    /*  ==================  Start Logo Section  ================== */
+    
+    .logos {
+        padding: 10px 0px 35px;
+    }
+    
+    .logos img {
+        margin-top: 50px;
+        width: 140px
+    }
+    
+    @media(max-width:775px) {
+        .logos img {
+            margin-top: 40px;
+            width: 90px;
+        }
+    }
+    /*  ==================  End Logo Section  ================== */
+    /*  ==================  Start Footer  ================== */
+    
+    footer {
+        padding: 30px 0;
+    }
+    
+    footer h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    footer ul li {
+        color: #7f7f7f;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    
+    footer ul li a {
+        color: #7f7f7f;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+    
+    footer ul li:hover {
+        color: #f3487f;
+    }
+    
+    footer ul li a:hover {
+        color: #f3487f;
+    }
+    
+    footer .in {
+        padding: 25px;
+    }
+    
+    footer .ww {
+        position: relative;
+    }
+    
+    footer .m {
+        position: absolute;
+        right: 18px;
+        bottom: 20px;
+        padding: 10px;
+    }
+    
+    footer h6 {
+        color: #7f7f7f;
+    }
+    /*  ==================  End Footer  ================== */
