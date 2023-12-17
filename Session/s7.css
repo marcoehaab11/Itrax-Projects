@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+}
+.bg
+{
+    width: 100%;
+    height: 450px;
+    background-image: url(s7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(45, 48, 104, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.menu
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 450px;
+}
+.menu li
+{   margin-left: 3%;
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+}
+.line {
+    width: 100%;
+    background: black;
+    height: .5px;
+    margin-top: 3% ;
+}
+.content{
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: 7% auto;   
+}
+.content h1{
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+.content p {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+.content  button{
+    height: 40px;
+    width: 140px;
+    margin-top: 2%;
+    border-radius:20% ;
+    -webkit-border-radius:20% ;
+    -moz-border-radius:20% ;
+    -ms-border-radius:20% ;
+    -o-border-radius:20% ;
+    background-color: transparent;
+}
+.table{
+    width: 100%;
+    height: 300px;
+    background-color: tomato;
+}
+.intable{
+    margin: 0 10%;
+    height: 100%;
+    background-color: violet;
+}
+td{
+    width: 1%;
+    height: 150px;
+    text-align: center;
+    background-color: blue;
+}
+.cc{
+    background-color: brown;
+}
+.bb {
+    width: 90%;
+    margin: 0 10%;
+
+    height: 250px;
+}
+.bb .img{
+    float: left;
+    width: 45%;
+    margin: 0;
+}
+.bb img 
+{
+    height: 100%;
+    width: 40%;
+    margin-left: 7%;
+    
+}
+.mm {
+    
+    text-align: center;
+    float: left;
+    width: 45%;
+    height: 100%;
+    background-color: cadetblue;
+}
+.mm p {
+    width: 80%;
+}

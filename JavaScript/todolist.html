@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/external/all.min.css">
+    <link rel="stylesheet" href="css/external/bootstrap.min.css">
+    <title>JS</title>
+</head>
+<style>
+   body{
+       text-align:center;
+   }
+   .f{
+       display: flex;
+       justify-content: center;
+
+   }
+   button{
+    margin: 10px;
+   }
+</style>
+<body>
+
+
+    <div class="container f">
+        <div class="row">
+            <div class="col-mg-4 ">
+                <h3>TO DO LIST</h3>
+                <input type="text" class="form-control" id="task">
+                <button type="button" class="btn btn-primary" onclick="add(),view()">ADD</button>
+            </div>
+        </div>
+    </div>
+
+        <div  class="container f">
+           
+           <div id="list">
+           </div>
+           
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/external/jquery.slim.min.js"></script>
+    <script src="js/external/bootstrap.bundle.min.js"></script>
+    <script src="maintodo.js"></script>
+</body>
+</html>
